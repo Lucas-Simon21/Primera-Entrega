@@ -46,11 +46,11 @@ getProductbyId = (idProduct) => {
 }
 };
 const product = new ProductManager ();
-product.addProduct ('Gorra F1', 'Compact', 80, 'sin imagen', 'BerCompact', 40 );
-product.addProduct ('Remera F1', 'XT', 180, 'sin imagen', 'BerXT', 40 );
-product.addProduct ('Buzo F1', 'Thunder', 70, 'sin imagen', 'BerThunder', 40 );
-product.addProduct ('Taza F1', 'Thunder', 70, 'sin imagen', 'BerThunder', 40 );
-product.addProduct ('Sweater F1', 'Thunder', 70, 'sin imagen', 'BerThunder', 40 );
+product.addProduct ('Gorra F1', 'Gorra precurvada Oracle Red Bull Racing 2023 New Era Max Verstappen 9FIFTY', 57, '#', 'GF1', 50 );
+product.addProduct ('Remera F1', 'Camiseta Scuderia Ferrari 2023 Equipo Charles Leclerc', 95, '#', 'RF1', 65 );
+product.addProduct ('Buzo F1', 'Chaqueta Softshell del equipo Scuderia Ferrari 2023', 152, '#', 'BF1', 30 );
+product.addProduct ('Taza F1', 'Taza Mercedes AMG Petronas F1', 20, '#', 'TF1', 120 );
+product.addProduct ('Sweater F1', 'Sudadera Mercedes AMG Petronas George Russell 2023 Edición especial', 160, '#', 'SF1', 55 );
 
 product.getProductbyId(1);
 product.getProductbyId(2);
